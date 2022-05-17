@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Brush Script MT",Cursive;
+  color: White; 
+}
+body{
+  background-color: DarkTurquoise;
+  height:100%;
+  width:100%;
+  display:block;
+  position:relative;
+}
+.wrapper{
+  background-color: AntiqueWhite;
+  width:600px;
+  height:600px;
+  display:block;
+  position:absolute;
+  top:50%;
+  left:50%;
+  padding:1em;
+  padding-top:6.5em;
+  outline:#202b39 soild 8px;
+  outline-offset:-17px;
+  overflow:hidden;
+}
+.button-property{
+  display: block;
+  margin: none;
+  padding: 0.5em 2.5em;
+  text-transform: uppercase;
+  background-color: MediumOrchid; 
+  border-color: black; 
+  color: white; 
+  border-width: 1px;
+  border-radius: 1px; 
+  border-style: solid; 
+  space: 3 em;
+  transform: translate(-50%, -50%);
+}
+.button-property:hover{
+  background-color: MediumOrchid;
+    color: MediumVioletRed;
+  border-color: black; 
+  transform: (1.05);
+}
+.buttonWrapper{display:grid; justify-content:center;}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px ;
+  padding: 10px;
+}
+.result_label 
